@@ -2,23 +2,33 @@
   "nodes": [
     {
       "name": "梁孔德",
-      "label": "Person",
+      "label": "足總主席",
       "id": 1
     },
     {
       "name": "梁劉柔芬",
-      "label": "Person",
+      "label": "前立法會議員",
       "id": 2
     },
     {
       "name": "梁頴宇",
-      "label": "Person",
+      "label": "啟明創投創辦人",
       "id": 3
     },
     {
       "name": "林振宇",
-      "label": "Person",
+      "label": "證監會非執董",
       "id": 4
+    },
+    {
+      "name": "林鄭月娥",
+      "label": "特首",
+      "id": 5
+    },
+    {
+      "name": "林節思",
+      "label": "小米營運主任",
+      "id": 6
     }
   ],
   "links": [
@@ -42,6 +52,16 @@
       "source": 3,
       "target": 4,
       "type": "夫婦"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "type": "友好"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "type": "母子"
     }
   ]
 }
