@@ -99,7 +99,7 @@
             .call(d3.drag()
                     .on("start", dragstarted)
                     .on("drag", dragged)
-                    //.on("end", dragended)
+                    .on("end", dragended)
             );
 
         node.append("circle")
@@ -160,11 +160,11 @@
         d.fy = d3.event.y;
     }
 
-//    function dragended(d) {
-//        if (!d3.event.active) simulation.alphaTarget(0);
-//        d.fx = undefined;
-//        d.fy = undefined;
-//    }
+    function dragended(d) {
+        if (!d3.event.active) simulation.alphaTarget(0);
+        d.fx = undefined;
+        d.fy = undefined;
+    }
 
 </script>
 
