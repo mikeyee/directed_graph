@@ -1,23 +1,23 @@
 {
   "nodes": [
     {
-      "name": "Peter",
+      "name": "梁孔德",
       "label": "Person",
       "id": 1
     },
     {
-      "name": "Michael",
+      "name": "梁劉柔芬",
       "label": "Person",
       "id": 2
     },
     {
-      "name": "Neo4j",
-      "label": "Database",
+      "name": "梁頴宇",
+      "label": "Person",
       "id": 3
     },
     {
-      "name": "Graph Database",
-      "label": "Database",
+      "name": "林振宇",
+      "label": "Person",
       "id": 4
     }
   ],
@@ -25,23 +25,23 @@
     {
       "source": 1,
       "target": 2,
-      "type": "KNOWS",
+      "type": "夫婦",
       "since": 2010
     },
     {
       "source": 1,
       "target": 3,
-      "type": "FOUNDED"
+      "type": "父女"
     },
     {
       "source": 2,
       "target": 3,
-      "type": "WORKS_ON"
+      "type": "母女"
     },
     {
       "source": 3,
       "target": 4,
-      "type": "IS_A"
+      "type": "夫婦"
     }
   ]
 }
