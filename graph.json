@@ -65,14 +65,14 @@
     }
     ,
     {
-      "source": 1,
+      "source": 3,
       "target": 6,
       "type": "小米投資者"
     },
     {
-      "source": 2,
+      "source": 4,
       "target": 6,
-      "type": "小米投資者"
+      "type": "協助小米旗下公司上市"
     }
   ]
 }
